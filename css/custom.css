@@ -1,0 +1,39 @@
+body {
+  padding-top: 90px;
+  font-size: 18px;
+}
+
+a, a:hover {
+color: #00aaee;
+}
+
+h1, h2, h3 { padding-top: 70px; margin-top: -70px; }
+
+.navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #00aaee;
+margin-top: 7px}
+
+#logo img { margin: 5px 0 3px 0;}
+
+.navbar-inverse {background-color: #FFFFFF;}
+
+.footer {
+  position: relative;
+	width: 100%;
+	background-color: #CCC;
+	height: 50px;
+	border-top: 2px #000 solid;
+}
+
+.footer p{
+	padding-top: 10px;
+}
+
+
+.pull-left img { margin-right: 20px; }
+
+.project img {margin-top: 20px; margin-bottom: 20px;}
+
+.img-author {margin: 0;}
+
+
+

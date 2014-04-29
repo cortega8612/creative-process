@@ -1,4 +1,3 @@
-markdown: rdiscount
-pygments: true
-paginate: 100
-permalink: pretty
+port:  5050
+name: Creative Process
+permalink: /:categories/:title

@@ -1,0 +1,3 @@
+port:  4000
+name: The other Creativity
+permalink: /:categories/:title

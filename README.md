@@ -1,11 +1,15 @@
-design-everyone
+creative-process
 ===============
-This is a test 
 
-Hi this is Derek
+Design Thesis work, 2014
 
-this is a sublime test
+This site is build using jekyll and boostrap
 
-Carlos change
+Install
 
-Derek sublime test
+sudo gem install jekyll
+sudo gem install rdiscount
+
+Run
+
+jekyll serve --w

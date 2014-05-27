@@ -1,16 +1,8 @@
 ---
-layout: fullpage
-title: Quote 1
-image: test.jpg
-pagetype: homeQuote quote 
+layout: default
+
 ---
 
-<div class="intropage">
-	<h1>Good governance<br>
-	and good policy<br>
-	are now inextricably<br>
-	linked to the digital.</h1>
-	<br>
-	<p>Tom Steinberg</p>
-	<p><i>Founder of mySociety</i></p>
+<div class="main">
+	<section></section>
 </div>

@@ -1,15 +1,20 @@
 ---
 layout: default
-title: Design Thesis work.
 ---
 
-<div>
-	
-	<h2><em>An exploration of the creative process through observation, research, synthesis, strategies and problem definition.<em></h2>
+<div id="insights-list">
+	{% for post in site.categories['insights'] 5 %}
 
+		<li>
+	    	<h2>{{ post.title }}</h2>
+	    
+
+	    	<div class="post">
+	    	{{ post.content }}
+	    </div>
+	</li>
+
+	{% endfor %}
 </div>
 
-{% for post in site.categories['project'] %}
-  <h4><a href='{{ site.base_url }}{{post.url}}'>{{post.title}}</a></h4>
-{% endfor %}
-
+<div class="infinite-spinner"></div>

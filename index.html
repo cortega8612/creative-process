@@ -5,14 +5,11 @@ layout: default
 <div id="insights-list">
 	{% for post in site.categories['insights'] 5 %}
 
-		<li>
-	    	<h2>{{ post.title }}</h2>
-	    
-
-	    	<div class="post">
+	<h2>{{ post.title }}</h2>
+	
+	    <div class="post">
 	    	{{ post.content }}
 	    </div>
-	</li>
 
 	{% endfor %}
 </div>

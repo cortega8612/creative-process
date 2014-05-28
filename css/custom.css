@@ -16,6 +16,13 @@ margin-top: 7px}
 
 .navbar-inverse {background-color: #FFFFFF;}
 
+.vcenter {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .footer {
   position: relative;
 	width: 100%;

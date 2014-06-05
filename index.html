@@ -2,17 +2,12 @@
 layout: default
 ---
 
-{% assign sorted_pages = site.pages | sort:"name" %}
-{% for node in sorted_pages %}
-  <li><a href="{{node.url}}">{{node.title}}</a></li>
-{% endfor %}
-
 <div id="insights-list">
-	{% for post in site.categories['insights'] 5 %}
+	{% for post in site.categories['insights'] %}
 
 	<h2>{{ post.title }}</h2>
 	
-	    <div class="post">
+	    <div class="posts">
 	    	{{ post.content }}
 	    </div>
 

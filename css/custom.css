@@ -1,13 +1,19 @@
 body {
   padding-top: 90px;
   font-size: 18px;
+  background-color: #FFF;
 }
+
 
 a, a:hover {
 color: #00aaee;
 }
 
-h1, h2, h3 { padding-top: 70px; margin-top: -70px; }
+h1, h2, h3 { padding-top: 70px; margin-top: -70px;}
+
+h2 {
+  color: #000;
+}
 
 .navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #000;
 margin-top: 7px}

@@ -37,6 +37,12 @@ margin-top: 7px}
     float: none;
 }
 
+.justify {
+text-align:justify;
+text-justify:inter-word;
+text-indent:50px;
+}
+
 .footer {
   position: relative;
 	width: 100%;
@@ -54,7 +60,7 @@ margin-top: 7px}
 
 .project img {margin-top: 20px; margin-bottom: 20px;}
 
-.img-author {margin: 0;}
+
 
 
 

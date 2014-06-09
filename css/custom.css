@@ -9,7 +9,7 @@ body {
 .b-home {
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: relative;
 }
 
 

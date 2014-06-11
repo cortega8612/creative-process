@@ -14,20 +14,35 @@ body {
 
 a, a:hover {
 color: #00aaee;
+font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Raleway';
 }
 
 h1, h2, h3 { padding-top: 70px; margin-top: -70px;}
 
-h2 {
-  color: #000;
+h1 {
+  font-family: 'Lato', sans-serif;
 }
 
-.navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #000;
-margin-top: 7px}
+h2 {
+  color: #000;
+  font-family: 'Satisfy';
+}
 
-#logo img { margin: 5px 0 3px 0;}
+h3 {
+  color: #645D5D;
+  font-family: 'Lato';
+}
 
-.navbar-inverse {background-color: #FFFFFF;}
+.navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #CCC;
+margin-top: 2px}
+
+#logo { margin: 5px 0 3px 0;}
+
+.navbar-inverse {background-color: #645D5D;}
 
 .vcenter {
     text-align: center;
@@ -45,8 +60,8 @@ text-indent:50px;
 .footer {
   position: static;
 	width: 100%;
-	background-color: #CCC;
-	height: 55px;
+	background-color: #645D5D;
+	height: 65px;
 	border-top: 2px #FFFFFF;
 
 
@@ -55,6 +70,8 @@ text-indent:50px;
 .footer p{
 	padding-top: 10px;
   text-align: center;
+  color: #CCC;
+  font-size: 14px;
 }
 
 

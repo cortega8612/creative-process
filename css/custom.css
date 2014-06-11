@@ -1,7 +1,6 @@
 body {
   padding-top: 90px;
   font-size: 18px;
-  background-color: #FFF;
 }
 
 /* images */
@@ -44,15 +43,18 @@ text-indent:50px;
 }
 
 .footer {
-  position: relative;
+  position: static;
 	width: 100%;
 	background-color: #CCC;
-	height: 50px;
-	border-top: 2px #000 solid;
+	height: 55px;
+	border-top: 2px #FFFFFF;
+
+
 }
 
 .footer p{
 	padding-top: 10px;
+  text-align: center;
 }
 
 

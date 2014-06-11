@@ -41,6 +41,11 @@ ul, li {
   font-family: 'Raleway';
 }
 
+.ul1
+{
+    list-style-type: none;
+}
+
 .navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #CCC;
 margin-top: 2px}
 

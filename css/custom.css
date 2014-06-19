@@ -51,7 +51,7 @@ margin-top: 2px}
 
 #logo { margin: 5px 0 3px 0;}
 
-.navbar-inverse {background-color: #645D5D;}
+.navbar-inverse {background-color: #3C3737;}
 
 .vcenter {
     text-align: center;
@@ -69,7 +69,7 @@ text-indent:50px;
 .footer {
   position: absolute;
 	width: 100%;
-	background-color: #645D5D;
+	background-color: #3C3737;
 	height: 65px;
 	border-top: 2px #FFFFFF;
 }

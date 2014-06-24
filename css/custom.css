@@ -86,7 +86,54 @@ text-indent:50px;
 
 .project img {margin-top: 20px; margin-bottom: 20px;}
 
+/* slider */
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+/*
+.caption {
+  text-align: center;
+  vertical-align: middle; 
+  display: block;
+  float: left;
+  position: relative;
+  opacity: 1;
+  z-index: 2;
+  -webkit-transition:opacity:; 500ms ease-in-out;
+  transition: opacity:; 500ms ease-in-out;
+  text-align: center;
+  vertical-align: middle; 
+  }
+  */
 
 

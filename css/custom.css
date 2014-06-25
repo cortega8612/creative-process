@@ -86,8 +86,6 @@ text-indent:50px;
 
 .project img {margin-top: 20px; margin-bottom: 20px;}
 
-/* slider */
-
 .rslides {
   position: relative;
   list-style: none;
@@ -120,20 +118,5 @@ text-indent:50px;
   border: 0;
   }
 
-/*
-.caption {
-  text-align: center;
-  vertical-align: middle; 
-  display: block;
-  float: left;
-  position: relative;
-  opacity: 1;
-  z-index: 2;
-  -webkit-transition:opacity:; 500ms ease-in-out;
-  transition: opacity:; 500ms ease-in-out;
-  text-align: center;
-  vertical-align: middle; 
-  }
-  */
 
 

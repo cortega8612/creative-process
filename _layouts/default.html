@@ -71,13 +71,14 @@
     <script src="/js/analytics_lib.js"></script>
     <script src="/js/imagesLoaded.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="/js/responsiveslides.min.js"></script>
+    <script src="/js/responsiveslides.min.js"></script> 
     <script>
-    $(function() {
-      $(".rslides").responsiveSlides();
-    });
-    </script>  
-
+      $(function() {
+        $(".rslides").responsiveSlides({
+            nav: true,             // Boolean: Show navigation, true or false
+        });
+      });
+    </script>
 
   </body>
 </html>

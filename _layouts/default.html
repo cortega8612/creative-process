@@ -73,12 +73,15 @@
     <script src="/js/imagesLoaded.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="/js/responsiveslides.min.js"></script> 
+    
     <script>
       $(function() {
         $(".rslides").responsiveSlides({
             nav: true,             // Boolean: Show navigation, true or false
             prevText: "",   // String: Text for the "previous" button
             "nextText": "Next Insight",       // String: Text for the "next" button
+            "navContainer": "default",       // Selector: Where auto generated controls should be appended to, default is after the <ul>
+
         });
       });
     </script>
